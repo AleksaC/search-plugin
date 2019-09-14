@@ -1,0 +1,12 @@
+{
+  "name": "Search Plugin",
+  "version": "0.0.1",
+  "description": "Use keyboard shortcuts to focus search bar inside a page",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script.js"]
+    }
+  ],
+  "manifest_version": 2
+}
